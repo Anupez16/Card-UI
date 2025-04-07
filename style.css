@@ -96,7 +96,7 @@ body {
 
 .swiper {
   width: 100%;
-  max-width: 1000px; /* Optional: Keeps it from stretching too wide */
+  max-width: 1000px;
   padding: 60px 0;
   display: flex;
   justify-content: center;

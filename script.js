@@ -94,7 +94,7 @@ const users = [
   
   const container = document.getElementById("card-container");
   
-  // Dynamically generate cards
+  // generate cards dynamically 
   users.forEach(user => {
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
@@ -130,7 +130,7 @@ const users = [
     container.appendChild(slide);
   });
   
-  // ✅ Initialize Swiper AFTER cards are added
+  // Swiper Code
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
